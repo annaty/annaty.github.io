@@ -1,0 +1,23 @@
+.container {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.cover img {
+    width: 100%;
+    border-radius: 0 0;
+}
+
+aside.left, aside.right {
+    text-align: center;
+    float: inherit;
+}
+
+section p, h1, h2 {
+    text-align: center;
+}
+
+section.map {
+    width: 100%;
+}

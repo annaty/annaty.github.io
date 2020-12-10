@@ -1,0 +1,150 @@
+/*
+ * FONTS
+*/
+
+/* charm-regular - latin */
+@font-face {
+    font-family: 'Charm';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/charm-v5-latin-regular.eot'); /* IE9 Compat Modes */
+    src: local('Charm Regular'), local('Charm-Regular'),
+         url('../fonts/charm-v5-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../fonts/charm-v5-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../fonts/charm-v5-latin-regular.woff') format('woff'), /* Modern Browsers */
+         url('../fonts/charm-v5-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('../fonts/charm-v5-latin-regular.svg#Charm') format('svg'); /* Legacy iOS */
+  }
+  
+  /* charm-700 - latin */
+  @font-face {
+    font-family: 'Charm';
+    font-style: normal;
+    font-weight: 700;
+    src: url('../fonts/charm-v5-latin-700.eot'); /* IE9 Compat Modes */
+    src: local('Charm Bold'), local('Charm-Bold'),
+         url('../fonts/charm-v5-latin-700.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../fonts/charm-v5-latin-700.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../fonts/charm-v5-latin-700.woff') format('woff'), /* Modern Browsers */
+         url('../fonts/charm-v5-latin-700.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('../fonts/charm-v5-latin-700.svg#Charm') format('svg'); /* Legacy iOS */
+  }
+  
+/*
+ * General Styles
+*/
+
+html {
+    font-size: 100%;
+  }
+
+  body {
+    background: url('../images/cover.jpg');
+    font-family: 'Arial Narrow', Arial, sans-serif;
+  
+    /* Full Page Background Receipe */
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+  }
+
+  * {
+    -moz-box-sizing: border-box; /* Firexfox */
+    -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+    box-sizing: border-box; /* IE */
+  }
+
+/*
+ * Text Styles
+*/
+
+h1, h2 {
+    font-family: 'Charm';
+    font-weight: 700;
+    margin:0 0 15px 0;
+}
+
+h1 {
+    font-size: 2.5rem;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+p {
+    font-size: 1.1rem;
+}
+
+a {
+    text-decoration: none;
+    color: orangered;
+    font-family: 'Charm';
+    font-weight: 400;
+}
+
+adress {
+    font-family: 'Charm';
+    font-weight: 400;
+}
+/*
+ * Container & Section Styles
+*/
+
+.container {
+    width: 600px;
+    margin: 50px auto;
+}
+
+section.intro, section.contact {
+    padding: 40px;
+}
+
+section.intro {
+    background-color: floralwhite;
+}
+
+section.contact {
+    background-color: seagreen;
+}
+
+section.map {
+    line-height: 0;
+}
+
+section.footer {
+    background-color: ivory;
+}
+
+/*
+ * Image Styles
+*/
+
+.cover {
+    line-height: 0;
+}
+.cover img {
+    width: 100%;
+    border-radius: 25px 25px 0 0;
+}
+
+.content {
+    width: 7rem;
+}
+
+/*
+ * Aside Styles
+*/
+
+
+aside.left {
+    float: left;
+  }
+  
+  aside.right {
+    float: right;
+  }
+  
+  aside {
+    margin-right: 24px;
+  }
